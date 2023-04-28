@@ -1,0 +1,85 @@
+# IP Address
+An IPv4 address is
+composed of four
+numbers divided by
+dots.
+Each number is called
+an octet.
+The value of each
+octet can be between
+0 and 255.
+
+# Network Classes
+1. Class A 
+255 0 0 0
+Network Host Host Host
+2. Class B
+255 255 0 0
+Network Network Host Host
+3. Class C
+255 255 255 0
+Network Network Network Host
+
+Subnetting is a logical way
+of grouping IP addresses
+in a network.
+It helps determine the
+network scope (from IP to
+IP).
+The three main types
+(classes) of networks are
+class A, class B, and
+class C.
+
+It helps determine the network scope (from IP to IP)
+Every Octet uses the same position. mulitply by 2
+
+1 2 4 8 16 32 64 128
+
+A subnet masks contiouns 1's or 0's
+
+A 1= Networkbit, A 0= Host Bit
+
+# Private IP Addresses
+
+cant be used directly to communicate over internet
+
+## Static Ip Address: 
+servers have static IP Address, A DNS number that doesnt change.
+most networking gear has a static ip, DHCP this is how users get it.
+
+## Default Gateway
+Only neccessary when communicating to a network that isn't on a local network. A gate through which data passes on its way and/or to other networks. Usually are routers, computers, firewalls, proxys, and servers.
+
+# DNS & DHCP
+## Domain Name System (DNS)
+Name to a # (IP ADDRESSES) Mappping
+Typically installed on the domain controller (DC)
+## Dynamic Host Configuration Protocol (DHCP)
+Network management protocol
+Dynamically assigns an IP address/other network-configuration parameters.
+
+## VM Network Adapters
+In NAT mode you can't access other VM hosts
+1. Bride mode connects VM to talk to home network
+2. Internal mode, isolated internal virutal network this works great w/ active directory
+
+
+# Windows Client
+
+Client: used for work/recreation
+
+Server: Provides services for clients and their management.
+
+dir is for directory
+
+copy:
+move:
+mkdir: make directory 
+rmdir: remove directory
+
+## CMD Users & Groups
+
+net user
+
+net localgroup
